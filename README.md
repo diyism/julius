@@ -1,3 +1,59 @@
+识别出来的音标不准确, 多出一些辅音:
+
+	pass1_best: <s> take </s>
+	pass1_best_wordseq: <s> take </s>
+	pass1_best_phonemeseq: sil | t ey k | sil
+	pass1_best_score: -16.940176
+	### Recognition: 2nd pass (RL heuristic best-first)
+	STAT: 00 _default: 3656 generated, 3016 pushed, 315 nodes popped in 55
+	sentence1: <s> eight </s>
+	wseq1: <s> eight </s>
+	phseq1: sil | ey t | sil
+	cmscore1: 0.314 0.016 1.000
+	score1: -47.681679
+	InternalError: CMN_realtime_update: param->samplenum != c->now.framenum
+	
+	pass1_best: <s> high </s>
+	pass1_best_wordseq: <s> high </s>
+	pass1_best_phonemeseq: sil | hh ay | sil
+	pass1_best_score: -10.062173
+	### Recognition: 2nd pass (RL heuristic best-first)
+	STAT: 00 _default: 2757 generated, 2523 pushed, 243 nodes popped in 62
+	sentence1: <s> hi </s>
+	wseq1: <s> hi </s>
+	phseq1: sil | hh ay | sil
+	cmscore1: 1.000 0.015 1.000
+	score1: -32.865772
+	InternalError: CMN_realtime_update: param->samplenum != c->now.framenum
+	
+	pass1_best: <s> you </s>
+	pass1_best_wordseq: <s> you </s>
+	pass1_best_phonemeseq: sil | y uw | sil
+	pass1_best_score: 28.124565
+	### Recognition: 2nd pass (RL heuristic best-first)
+	STAT: 00 _default: 6690 generated, 3902 pushed, 257 nodes popped in 68
+	sentence1: <s> u. </s>
+	wseq1: <s> u. </s>
+	phseq1: sil | y uw | sil
+	cmscore1: 1.000 0.162 1.000
+	score1: 1.034594
+	InternalError: CMN_realtime_update: param->samplenum != c->now.framenum
+	
+	<<< please speak >>>
+	
+	pass1_best: <s> hyde </s>
+	pass1_best_wordseq: <s> hyde </s>
+	pass1_best_phonemeseq: sil | hh ay d | sil
+	pass1_best_score: -2.792807
+	### Recognition: 2nd pass (RL heuristic best-first)
+	STAT: 00 _default: 3875 generated, 3206 pushed, 227 nodes popped in 68
+	sentence1: <s> hide </s>
+	wseq1: <s> hide </s>
+	phseq1: sil | hh ay d | sil
+	cmscore1: 1.000 0.176 1.000
+	score1: -24.268990
+	InternalError: CMN_realtime_update: param->samplenum != c->now.framenum
+
 Julius: Open-Source Large Vocabulary Continuous Speech Recognition Engine
 ==========================================================================
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.2530396.svg)](https://doi.org/10.5281/zenodo.2530396)
